@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+body {
+display: block;
+margin: 8px;
+}
+
+div {
+	display: block;
+}
+
+
+
+#header {
+	position: fixed;
+	top: 0;
+	margin-top: 20px;
+	height: 30px;
+	width: 100%;
+	color: #404040;
+	font-size: .9em;
+}
+
+#header ul {
+	margin-right: 30px;
+	
+}
+
+.droite{
+	float: right;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+#header li {
+	display: table-cell;
+	height: 30px;
+	vertical-align: middle;
+	padding: 0 10px;
+}
+
+
+
+.button {
+	background-color: blue;
+	color: white;
+	border: 0;
+	border-radius: 4px;
+	height: 30px;
+	width: 70px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+#centre{
+	position: absolute;
+	top: 45px;
+	margin-top: 130px;
+	width: 100%;
+}
+
+#centre img {
+display: block;
+height: 100px;
+margin: auto;
+margin-bottom: 30px;
+}
+
+#centre form {
+width: 100%;
+text-align: center;
+}
+
+input {
+display: block;
+margin: 0 auto;
+width: 568px;
+height: 25px;
+border: 1px solid #d8d8d8;
+}
+
+.microphone {
+background-image: url(images/microphone.png);
+background-repeat: no-repeat;
+background-position: right center;
+background-size: 25px;
+}
+
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	background-color: #f2f2f2;
+	color: #666666;
+	font-size: .8em;
+	border: 1px solid gray;
+}
+
+.gauche{
+	float: left;
+}
+
+#footer li {
+padding: 0 15px;
+height: 40px;
+display: table-cell;
+vertical-align: middle;
+}
+
+#footer a{
+	text-decoration: none;
+	color: #666666;
+	font-family: sans-serif;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
